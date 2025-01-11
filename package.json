@@ -1,0 +1,18 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon app.js "
+  },
+  "author": "kevin romero",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
+  }
+}
