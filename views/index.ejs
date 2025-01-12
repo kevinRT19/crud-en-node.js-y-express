@@ -130,7 +130,14 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.10/dist/sweetalert2.all.min.js"></script>
 
     <script>
-        new DataTable('#users');
+         $(document).ready(function() {
+        $('#users').DataTable({
+          language: {
+            url: 'https://cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json'
+          }
+        });
+      });
+
       function confirmar(id) {
         Swal.fire({
           title: '¿confirma para elimainar el registro '+id+'?',

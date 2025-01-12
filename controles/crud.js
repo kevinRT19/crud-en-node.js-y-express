@@ -11,7 +11,7 @@ module.exports.save = (req, res) => {
         }
     });
 };
-
+// actualizar registros
 module.exports.update = (req, res) => {
     const id = req.body.id;
     const users = req.body.users;
